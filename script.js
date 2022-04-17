@@ -1,50 +1,20 @@
-//Arrays
-		var array = new Array();
-		array[0] = "Thethtunoo";
-		array[1] = 2;
-		array[2] = function (name){
-			console.log("Hello " + name);
-		};
-		array[3] = {course:"HTML,CSS & JS"};
-		console.log(array);
-		console.log(array[0]);
-		array[2]("Rena");
-		array[2](array[0]);
-		console.log(array[3].course);
-
-		//Short hand array creation
-		var names =["Thet","Tun","Oo"];
-		console.log(names);
-		var myGrilFriendName =["Rena","Kuwa","Hara"];
-		for (var i = 0; i<myGrilFriendName.length;i++){
-			console.log("I love you " + myGrilFriendName[i]);
-		}
-
-		myGrilFriendName[100] = "Japan";
-		for (var i = 0; i<myGrilFriendName.length;i++){
-			console.log("I love you " + myGrilFriendName[i]);
-		}
-		 names =["Thet","Tun","Oo"];
-		var myObj ={
-			name: "Thet",
-			course:"HTML/CSS/JS",
-			platform:"coursera"
-		};
-		for (var prop in myObj){
-			console.log(prop + ": " + myObj[prop]);
-		}
-
-		for (var name in names){
-			console.log("I love you " + names[name]);
-		}
-		//Closures
-		function makeMultiplier (multiplier){
-			return (
-				function (x){
-					return multiplier*x;
-				}
-
-				);
-		}
-		var doubleAll = makeMultiplier(2);
-		console.log(doubleAll(10));
+var name = "Yaakov";
+console.log("Hello " + name);
+var name2 = "John";
+console.log("Goodbye "+ name2);
+var name3 = " Jen";
+console.log("Goodbye "+name3);
+var name4 = "Jason";
+console.log("Goodbye "+name4);
+var name5 = "Paul";
+console.log("Hello "+name5);
+var name6 = "Frank";
+console.log("Hello "+name6);
+var name7 = "Larry";
+console.log("Hello "+name7);
+var name8 = "Paula";
+console.log("Hello "+name8);
+var name9 = "Laura";
+console.log("Hello "+name9);
+var name10 = "Jim";
+console.log("Goodbye "+name10)
